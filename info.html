@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo HTML Page</title>
+    <style>
+        /* Simple internal styling to make the demo page look organized */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header, section, footer {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1, h2 { color: #0056b3; }
+        ul { padding-left: 20px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background: #0056b3;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover { background: #004085; }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Demo Website</h1>
+        <p>This page showcases the foundational elements of standard <strong>HTML5</strong>.</p>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Text & List Elements Section -->
+        <section>
+            <h2>Heading Level 2</h2>
+            <p>This is a standard paragraph element. You can emphasize terms using <em>italics</em> or highlight key information in <strong>bold text</strong>.</p>
+            
+            <h3>Unordered Feature List (Bullet Points)</h3>
+            <ul>
+                <li>Easy to customize structural components</li>
+                <li>Built-in clean typography style overrides</li>
+                <li>Responsive viewport settings for mobile rendering</li>
+            </ul>
+        </section>
+
+        <!-- Media & Navigation Section -->
+        <section>
+            <h2>Links & Media Examples</h2>
+            <p>You can reference documentation easily by pointing to external properties. Learn more layouts on the official <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Guide</a>.</p>
+            
+            <p>Placeholder Image Demo:</p>
+            <!-- Replace the src URL with your own path when hosting local images -->
+            <img src="https://placeholder.com" alt="Sample descriptive alternative text placeholder" width="300">
+        </section>
+
+        <!-- Interactive Form Section -->
+        <section>
+            <h2>Interactive User Form</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="userName" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="userEmail" placeholder="john@example.com" required>
+                </div>
+                <button type="submit">Submit Information</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Area -->
+    <footer>
+        <p>&copy; 2026 Web Demo Project. Built for exploratory training.</p>
+    </footer>
+
+</body>
+</html>
